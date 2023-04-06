@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+a {
+    text-decoration: none;
+    color:#FFFFFF;
+    max-width: 1440px;
+    
+}
+
+.corpo{
+    background-image: linear-gradient(#008364,#4650BD,#008364);
+    margin: 0 auto;
+   
+}
+
+
+.menu__cabecalho {
+
+   
+    background-color: #4650BD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 120px;
+    gap: 32px;
+   
+    
+
+}
+
+
+.menu__cabecalho__navegacao {
+    display: flex;   
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 590px;
+    height: 40px;
+
+    /*config typo*/
+    /*IMPORTAR FAMILIA DE FONTES*/
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 40px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container__sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 120px;
+
+}
+
+.sobre__imagem {
+    
+    height: 381px;
+    border-radius: 16px;
+
+}
+
+.item__sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+
+    width: 1197px;
+    height: 381px;
+    border-radius: 0px;
+
+}
+
+.item__texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 540px;
+    height: 340px;
+
+
+}
+
+.item__texto__titulo {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px ;
+    line-height:38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.item__texto__paragrafo {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.item__texto__botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+
+    width: 256px;
+    height: 56px;
+}
+
+.lineup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 120px;
+    gap: 32px;
+}
+
+.lineup__titulo {
+    color: #FFFFFF;
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.lineup__sabado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 56px 120px;
+    gap: 48px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sabadoedomingo__headliner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+}
+
+.sabadoedomingo__headliner__banda {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.sabadoedomingo__primeiralinha {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+}
+
+.sabadoedomingo__primeiralinha__bandas {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+
+}
+
+.sabadoedomingo__segundalinha {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+}
+
+.sabadoedomingo__segundalinha__bandas {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+
+}
+
+.sabadoedomingo__terceiralinha {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+}
+
+.sabadoedomingo__terceiralinha__bandas {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.lineup__domingo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 56px 120px;
+    gap: 48px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.domingo__headliner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+}
+
+.domingo__headliner__banda {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.domingo__primeiralinha__bandas {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+
+}
+
+.domingo__segundalinha__bandas {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.domingo__terceiralinha__bandas {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+
+}
+
+.imagemframe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+}
+
+.banner__frame {
+    width: 1440px;
+    height: 338px;
+}
+
+.rodape__fim {
+    background-color: #4650BD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 120px;
+    gap: 16px;
+}
+
+.rodape__logo {
+    width: 307px;
+    height: 84px;
+}
+
+.redes__sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}
+
+.redes__sociais__icon {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.desenvolvido__por {
+   
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 40px;
+color: #FFFFFF;
+
+width: 326px;
+height: 80px;
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

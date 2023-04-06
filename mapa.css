@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+
+
+.banner__setores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.principal__mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 120px;
+    gap: 32px;
+}
+
+.principal__mapa__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+    width: 1200px;
+    height: 609px;
+
+}
+
+
+.principal__mapa__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+.principal__mapa__item h1 {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    }
+ 
+
+.principal__mapa__item li {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0px;
+}
+
+.detalhes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 120px;
+    gap: 48px;
+
+    
+
+}
+
+.detalhes h1 {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    align-items: center;
+    text-align: center;
+}
+
+.detalhes__container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1197px;
+    height: 631px;
+
+    border-radius: 0px;
+
+    
+}
+
+.detalhes__container li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 383px;
+    height: 525px;
+
+}
+
+
+.retangulo {
+    width: 393px;
+    height: 82px;
+}
+
+.detalhes__container__titulo{
+
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.detalhes__container__texto {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
